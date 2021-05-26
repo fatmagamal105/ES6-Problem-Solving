@@ -27,11 +27,16 @@
 .button{
     margin: 10px
 }
+.button:hover{
+    background-color: brown;
+    color: cornsilk;
+    border-color: brown;
+}
 /**post*/
 .posts{
     text-align: center;
     margin-top: 30px 10px;
-    color: rgb(17, 99, 223);
+    color: brown;
     transition: 2s;
     font-size: 20px;
     line-height: 40px;
