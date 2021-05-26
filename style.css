@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+/*navbar*/
+.navbar{
+    height: 47px;
+}
+.bg-light {
+    background-color: #4d5491!important;
+    box-shadow: 4px 2px #53505029
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 20px;
+    position: relative;
+    left: 550px;
+}
+
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.9);
+    background-color: #fff;
+}
+.button{
+    margin: 10px
+}
+/**post*/
+.posts{
+    text-align: center;
+    margin-top: 30px 10px;
+    color: rgb(17, 99, 223);
+    transition: 2s;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 18px 0px;
+}
+
+/*footer*/
+.footer{
+    height: 60px;
+    background-color: #262424;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 20px;
+}
